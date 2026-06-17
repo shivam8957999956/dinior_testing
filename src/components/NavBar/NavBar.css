@@ -1,0 +1,100 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  background-color: rgba(253, 251, 247, 0.8);
+  align-items: center;
+}
+.left {
+  font-family: serif; /* replace with your custom font if needed */
+  font-size: 1.875rem; /* text-3xl */
+  letter-spacing: -0.025em; /* tracking-tight */
+  line-height: 1; /* leading-none */
+}
+.left img {
+  height: 36px;
+}
+.center {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 30px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #2a2422;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.menu:hover::after {
+  transform: scaleX(1);
+}
+
+.menu:hover {
+  color: #c83218;
+}
+
+.menu.active {
+  color: #c83218;
+  font-weight: 600;
+}
+
+.shareButton {
+  display: none;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+
+  background-color: #c83218;
+  color: white;
+
+  padding: 0.625rem 1.25rem; /* py-2.5 px-5 */
+
+  font-size: 0.75rem; /* text-xs */
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600; /* font-semibold */
+
+  border-radius: 0.125rem; /* rounded-sm */
+
+  transition: background-color 0.15s ease-in-out;
+}
+
+.shareButton:hover {
+  background-color: #a62813;
+}
+
+/* md:inline-flex */
+@media (min-width: 768px) {
+  .shareButton {
+    display: inline-flex;
+  }
+}

@@ -1,0 +1,165 @@
+.restaurants-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+/* HEADER */
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: end;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .header-grid {
+    grid-template-columns: 7fr 5fr;
+  }
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5c534f;
+}
+
+.header-text h1 {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 200;
+  margin-top: 12px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .header-text h1 {
+    font-size: 72px;
+  }
+}
+
+.header-text p {
+  margin-top: 16px;
+  color: #5c534f;
+  font-size: 18px;
+  max-width: 520px;
+}
+
+/* SEARCH */
+.search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #5c534f;
+}
+
+.search-input {
+  width: 100%;
+  padding: 14px 14px 14px 42px;
+  border: 1px solid #e5dfd9;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.search-input:focus {
+  border-color: #c83218;
+}
+
+/* FILTER BAR */
+.filters-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid #e5dfd9;
+  border-bottom: 1px solid #e5dfd9;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+/* CHIPS */
+.chip {
+  padding: 6px 14px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 1px solid #e5dfd9;
+  background: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chip:hover {
+  border-color: #c83218;
+  color: #c83218;
+}
+
+.chip.active {
+  background: #2a2422;
+  color: white;
+  border-color: #2a2422;
+}
+
+/* HIDDEN BUTTON */
+.hidden-btn {
+  margin-left: auto;
+  padding: 6px 14px;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border: 1px solid #c83218;
+  background: white;
+  color: #c83218;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hidden-btn:hover {
+  background: rgba(200, 50, 24, 0.05);
+}
+
+.hidden-btn.active {
+  background: #c83218;
+  color: white;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* EMPTY STATE */
+.empty-state {
+  text-align: center;
+  padding: 96px 0;
+  color: #5c534f;
+}
+
+.empty-state p {
+  font-size: 28px;
+  font-style: italic;
+}

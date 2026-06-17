@@ -1,0 +1,298 @@
+.restaurant-detail {
+  background: #fff;
+}
+
+/* LOADING */
+.loading {
+  text-align: center;
+  padding: 120px 0;
+  color: #5c534f;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 70vh;
+  min-height: 460px;
+  overflow: hidden;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(42, 36, 34, 0.85),
+    rgba(42, 36, 34, 0.4),
+    transparent
+  );
+}
+
+.hero-content {
+  position: relative;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.back-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 600;
+  line-height: 0.95;
+  margin-top: 16px;
+  max-width: 800px;
+}
+
+.tagline {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  font-style: italic;
+  font-size: 22px;
+}
+
+/* MAIN LAYOUT */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 48px;
+}
+
+/* INFO ROW */
+.info-row {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e5dfd9;
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #493a3a;
+}
+
+.rating-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.rating-value {
+  font-size: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+/* TEXT */
+.description {
+  font-size: 26px;
+  line-height: 1.4;
+  font-style: italic;
+  margin-top: 24px;
+  color: #2a2422;
+}
+
+/* AI */
+.ai-section {
+  margin-top: 40px;
+}
+
+.ai-btn {
+  border: 1px solid #2a2422;
+  padding: 12px 18px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background: white;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ai-btn:hover {
+  background: #2a2422;
+  color: white;
+}
+
+.ai-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f5efe6;
+  border-left: 4px solid #c83218;
+}
+
+.ai-box p {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+/* SECTIONS */
+.section {
+  margin-top: 56px;
+}
+
+.dishes {
+  margin-top: 16px;
+  border-top: 1px solid #e5dfd9;
+  border-bottom: 1px solid #e5dfd9;
+}
+
+.dishes li {
+  padding: 16px 0;
+  font-size: 22px;
+}
+
+/* GALLERY */
+.gallery {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* RIGHT SIDE */
+.right {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+  top: 112px;
+}
+
+.right h3 {
+  font-size: 28px;
+  margin: 8px 0 24px;
+}
+
+/* FORM */
+.review-form {
+  border: 1px solid #e5dfd9;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e5dfd9;
+  padding: 10px 0;
+  margin-bottom: 12px;
+  outline: none;
+  font-size: 14px;
+}
+
+.review-form textarea {
+  resize: none;
+}
+
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-form select {
+  border: 1px solid #e5dfd9;
+  padding: 6px 10px;
+}
+
+.review-form button {
+  background: #c83218;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 11px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background: #a62813;
+}
+
+/* REVIEWS */
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.review {
+  border-bottom: 1px solid #e5dfd9;
+  padding-bottom: 20px;
+}
+
+.review h4 {
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.review p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #5c534f;
+}
+
+.review span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #8a2a20;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.empty {
+  font-style: italic;
+  color: #5c534f;
+}

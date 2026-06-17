@@ -1,0 +1,144 @@
+.food-post-card {
+  background: white;
+  border: 1px solid #e5dfd9;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.food-post-card:hover {
+  transform: translateY(-8px);
+}
+
+.food-post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 20px 0;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #e5dfd9;
+}
+
+.author-info {
+  line-height: 1.2;
+}
+
+.author-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #2a2422;
+}
+
+.post-location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #8a2a20;
+  margin-top: 4px;
+}
+
+.food-image-container {
+  margin-top: 16px;
+  overflow: hidden;
+  background: #f5efe6;
+  aspect-ratio: 4/5;
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.food-post-card:hover .food-image {
+  transform: scale(1.05);
+}
+
+.food-post-content {
+  padding: 20px;
+}
+
+.food-caption {
+  font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: #2a2422;
+}
+
+.restaurant-name {
+  margin-top: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #8a2a20;
+}
+
+.food-actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #2a2422;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.action-btn:hover {
+  color: #c83218;
+}
+
+.liked-heart {
+  color: #c83218;
+  fill: #c83218;
+}
+
+.comments-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #5c534f;
+  font-size: 0.9rem;
+}
+
+.tags {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #5c534f;
+}
+
+@media (max-width: 768px) {
+  .food-caption {
+    font-size: 1.15rem;
+  }
+
+  .food-actions {
+    gap: 14px;
+  }
+}

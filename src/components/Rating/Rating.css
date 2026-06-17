@@ -1,0 +1,19 @@
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  transition: all 0.3s ease;
+}
+
+.star-on {
+  color: #c83218;
+  fill: currentColor;
+}
+
+.star-off {
+  color: #d6d0ca;
+  fill: transparent;
+}

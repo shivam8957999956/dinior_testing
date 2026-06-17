@@ -1,0 +1,126 @@
+.competition-card {
+  display: flex;
+  background: white;
+  border: 1px solid #e5dfd9;
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.35s ease;
+}
+
+.competition-card:hover {
+  transform: translateY(-8px);
+}
+
+.competition-image-container {
+  width: 50%;
+  background: #f5efe6;
+  overflow: hidden;
+}
+
+.competition-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.competition-card:hover .competition-image {
+  transform: scale(1.05);
+}
+
+.competition-content {
+  width: 50%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.competition-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #8a2a20;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+
+.competition-title {
+  margin-top: 1rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  color: #2a2422;
+  transition: color 0.3s ease;
+}
+
+.competition-card:hover .competition-title {
+  color: #c83218;
+}
+
+.competition-summary {
+  margin-top: 1rem;
+  color: #5c534f;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.competition-details {
+  margin-top: auto;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.detail-label {
+  color: #8a2a20;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.detail-value {
+  margin-top: 6px;
+  color: #2a2422;
+  font-weight: 500;
+}
+
+.event-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.deadline-value {
+  margin-top: 6px;
+  color: #c83218;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .competition-card {
+    flex-direction: column;
+  }
+
+  .competition-image-container,
+  .competition-content {
+    width: 100%;
+  }
+
+  .competition-image-container {
+    aspect-ratio: 16/10;
+  }
+
+  .competition-content {
+    padding: 2rem;
+  }
+
+  .competition-title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,62 @@
+/* PAGE WRAPPER */
+.competitions-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 24px;
+  font-family: system-ui, Arial;
+  color: #2a2422;
+}
+
+/* HEADER */
+.competitions-header {
+  max-width: 720px;
+  margin-bottom: 50px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: #8a2a20;
+}
+
+.competitions-header h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  margin: 10px 0;
+}
+
+.competitions-header h1 em {
+  font-style: italic;
+  color: #c83218;
+}
+
+.competitions-header p {
+  color: #5c534f;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* GRID */
+.competitions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+/* optional responsive enhancement */
+@media (min-width: 768px) {
+  .competitions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .competitions-header h1 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .competitions-page {
+    padding: 80px 40px;
+  }
+}

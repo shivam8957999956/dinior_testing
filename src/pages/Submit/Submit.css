@@ -1,0 +1,113 @@
+/* PAGE */
+.submit-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 24px;
+  font-family: system-ui, Arial;
+  color: #2a2422;
+}
+
+/* HEADER */
+.submit-header {
+  max-width: 720px;
+  margin-bottom: 50px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: #8a2a20;
+}
+
+.submit-header h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  margin: 10px 0;
+}
+
+.submit-header h1 em {
+  font-style: italic;
+  color: #c83218;
+}
+
+.submit-header p {
+  font-size: 18px;
+  color: #5c534f;
+  line-height: 1.6;
+}
+
+/* FORM */
+.submit-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* FIELD */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5c534f;
+}
+
+.field input,
+.field textarea {
+  margin-top: 8px;
+  border: none;
+  border-bottom: 1px solid #e5dfd9;
+  padding: 10px 0;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+  transition: border 0.2s;
+  font-family: inherit;
+}
+
+.field textarea {
+  resize: none;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-bottom: 1px solid #c83218;
+}
+
+/* BUTTON */
+.submit-btn {
+  margin-top: 20px;
+  background: #c83218;
+  color: white;
+  border: none;
+  padding: 14px 26px;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  align-self: flex-start;
+}
+
+.submit-btn:hover {
+  background: #a62813;
+}
+
+.submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .submit-header h1 {
+    font-size: 38px;
+  }
+}
