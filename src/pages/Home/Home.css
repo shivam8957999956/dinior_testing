@@ -1,12 +1,11 @@
 .home {
   display: flex;
   flex-direction: column;
-  padding-top: 10px ;
 }
 .hero {
   position: relative;
-  height: 88vh;
-  min-height: 560px;
+  height: 100vh;
+  min-height: 460px;
   width: 100%;
   overflow: hidden;
   background-color: #c83218;
@@ -59,7 +58,7 @@
   margin-top: 24px;
   color: white;
   font-family: "Playfair Display", serif;
-  font-size: clamp(3rem, 8vw, 9.5rem);
+  font-size: 80px;
   line-height: 0.92;
   letter-spacing: -0.05em;
   max-width: 1000px;
@@ -126,6 +125,20 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 25px;
+  }
+  .hero-description {
+    font-size: 15px;
+  }
+  .primary-btn,
+  .secondary-btn {
+    font-size: 0.6rem;
+    padding: 10px 20px;
+  }
+}
+
 /* marquee */
 
 .marquee-section {
@@ -170,6 +183,15 @@
 
   to {
     transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee-item {
+    font-size: 0.8rem;
+  }
+  .marquee-track {
+    padding: 10px 0;
   }
 }
 

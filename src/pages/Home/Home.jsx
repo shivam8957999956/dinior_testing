@@ -30,9 +30,9 @@ function Home() {
         <div className="hero-content">
           <span className="hero-label">Issue 01 — The Dining Edition</span>
 
-          <h1 className="hero-title">
+          <span className="hero-title">
             Eat where the <em>city</em> whispers.
-          </h1>
+          </span>
 
           <p className="hero-description">
             Dinior is a food magazine for the curious eater — secret cafés, chef
