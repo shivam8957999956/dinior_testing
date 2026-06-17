@@ -193,7 +193,7 @@ export default function RestaurantDetail() {
         </div>
 
         {/* REVIEWS */}
-        <aside className="right">
+        <div className="right">
           <div className="sticky">
             <span className="eyebrow">Reviews</span>
             <h3>What guests said.</h3>
@@ -251,7 +251,7 @@ export default function RestaurantDetail() {
               )}
             </div>
           </div>
-        </aside>
+        </div>
       </section>
     </div>
   );
