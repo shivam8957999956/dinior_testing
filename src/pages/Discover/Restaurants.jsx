@@ -29,6 +29,7 @@ function Restaurants() {
   //     .catch(() => {});
   // }, [filter, q]);
 
+  //------for local
   useEffect(() => {
     let data = [...featured];
 
@@ -52,7 +53,6 @@ function Restaurants() {
           r.neighborhood.toLowerCase().includes(query),
       );
     }
-
     setItems(data);
   }, [filter, q]);
 

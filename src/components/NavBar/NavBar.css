@@ -13,15 +13,34 @@
   background-color: rgba(253, 251, 247, 0.8);
   align-items: center;
 }
-.left {
-  font-family: serif; /* replace with your custom font if needed */
-  font-size: 1.875rem; /* text-3xl */
-  letter-spacing: -0.025em; /* tracking-tight */
-  line-height: 1; /* leading-none */
+
+.temp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
 }
-.left img {
+.temp img {
   height: 36px;
 }
+
+.mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 0.5rem;
+
+  background-color: #c83218;
+  color: white;
+  padding: 0.625rem 1.25rem;
+
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+}
+
 .center {
   display: flex;
   gap: 1rem;
@@ -68,6 +87,29 @@
   font-weight: 600;
 }
 
+.mobile {
+  display: none;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+
+  background-color: #c83218;
+  color: white;
+
+  padding: 0.625rem 1.25rem; /* py-2.5 px-5 */
+
+  font-size: 0.75rem; /* text-xs */
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-weight: 600; /* font-semibold */
+
+  border-radius: 0.125rem; /* rounded-sm */
+  transition: background-color 0.15s ease-in-out;
+}
+
+.mobile:hover {
+  background-color: #a62813;
+}
+
 .shareButton {
   display: none;
   align-items: center;
@@ -84,7 +126,6 @@
   font-weight: 600; /* font-semibold */
 
   border-radius: 0.125rem; /* rounded-sm */
-
   transition: background-color 0.15s ease-in-out;
 }
 
@@ -99,7 +140,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .NavBar {
     flex-direction: column;
@@ -109,12 +149,6 @@
   }
 
   /* LEFT (logo stays top-left) */
-  .left {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
 
   /* CENTER MENU becomes one line below logo */
   .center {
@@ -143,5 +177,8 @@
     display: none;
   }
 }
-
-
+@media (max-width: 768px) {
+  .mobile {
+    display: flex;
+  }
+}

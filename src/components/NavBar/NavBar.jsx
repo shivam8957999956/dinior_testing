@@ -4,8 +4,15 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
-      <div className="left">
-        <img src="/images/logo.png" alt="" className="src" />
+      <div className="temp">
+        <div className="templ">
+          <img src="/images/logo.png" alt="" className="src" />
+        </div>
+        <div className="tempr">
+          <NavLink to="/submit" className="mobile">
+            Share a Plate
+          </NavLink>
+        </div>
       </div>
       <div className="center">
         <NavLink
@@ -34,7 +41,9 @@ function NavBar() {
         </NavLink>
       </div>
       <div className="right">
-        <button className="shareButton">Share a Plate</button>
+        <NavLink to="/submit" className="shareButton">
+          Share a Plate
+        </NavLink>
       </div>
     </div>
   );

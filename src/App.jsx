@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import RestaurantDetail from "./pages/RestaurantDetail/RestaurantDetail";
 import CompetitionDetail from "./pages/CompetitionDetail/CompetitionDetail";
 import Submit from "./pages/Submit/Submit";
+import FullMenu from "./pages/FullMenu/FullMenu";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/restaurants" element={<Restaurants />} />
           <Route path="/restaurants/:id" element={<RestaurantDetail />} />
           <Route path="/competitions/:id" element={<CompetitionDetail />} />
+          <Route path="/menu/:id" element={<FullMenu />} />
           <Route path="/about" element={<About />} />
           <Route path="/submit" element={<Submit />} />
         </Routes>

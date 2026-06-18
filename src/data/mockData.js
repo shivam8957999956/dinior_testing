@@ -22,6 +22,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
       "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200",
   },
@@ -44,6 +70,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1200",
       "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200",
   },
@@ -65,6 +117,32 @@ export const featured = [
     gallery: [
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200",
       "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1200",
+    ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
     ],
     image_url:
       "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200",
@@ -92,6 +170,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200",
       "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=1200",
   },
@@ -118,6 +222,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1604908177522-040c5f8b0c8a?w=1200",
       "https://images.unsplash.com/photo-1562967916-eb82221dfb36?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200",
   },
@@ -139,6 +269,32 @@ export const featured = [
     gallery: [
       "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200",
       "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200",
+    ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
     ],
     image_url:
       "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200",
@@ -166,6 +322,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=1200",
       "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1604908176997-125f25cc500f?w=1200",
   },
@@ -187,6 +369,32 @@ export const featured = [
     gallery: [
       "https://images.unsplash.com/photo-1555992336-03a23c1b2a8d?w=1200",
       "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1200",
+    ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
     ],
     image_url:
       "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1200",
@@ -210,6 +418,32 @@ export const featured = [
       "https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1200",
       "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
     ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
+    ],
     image_url:
       "https://images.unsplash.com/photo-1516684669134-de6f7c473a2a?w=1200",
   },
@@ -231,6 +465,32 @@ export const featured = [
     gallery: [
       "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
       "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200",
+    ],
+    menu: [
+      {
+        name: "Tomato Basil Soup",
+        description: "Creamy tomato soup with basil.",
+        image:
+          "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200",
+        category: "soups",
+        isVeg: true,
+      },
+      {
+        name: "Garlic Bread",
+        description: "Freshly baked garlic bread.",
+        image:
+          "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200",
+        category: "breads",
+        isVeg: true,
+      },
+      {
+        name: "Chef Special Meal",
+        description: "Signature entrée of the restaurant.",
+        image:
+          "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200",
+        category: "meals",
+        isVeg: false,
+      },
     ],
     image_url:
       "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
@@ -413,7 +673,6 @@ export const comps = [
     cover_image:
       "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200",
   },
-
   {
     id: 2,
     title: "Tokyo Ramen Masters",

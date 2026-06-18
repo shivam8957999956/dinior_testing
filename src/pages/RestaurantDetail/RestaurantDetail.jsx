@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, NavLink, Link } from "react-router-dom";
 // import {
 //   getRestaurant,
 //   listReviews,
@@ -15,6 +15,7 @@ import { featured, reviews as rev } from "../../data/mockData";
 export default function RestaurantDetail() {
   const { id } = useParams();
   const [items, setItems] = useState(featured);
+  const [selectedDish, setSelectedDish] = useState(null);
   const r = featured[id - 1];
   //   const [r, setR] = useState(null);
   const [reviews, setReviews] = useState(rev);
@@ -176,6 +177,67 @@ export default function RestaurantDetail() {
                   <li key={d}>{d}</li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {/* menu */}
+          {r.menu?.length > 0 && (
+            <div className="section">
+              <span className="eyebrow">Specialized Menu</span>
+              <div className="gallery">
+                {r.menu.slice(0, 3).map((g, index) => (
+                  <div
+                    className="gallery-item"
+                    key={index}
+                    onClick={() => setSelectedDish(g)}
+                  >
+                    <img src={g.image} alt={g.name} />
+                    <div className="overlay">
+                      <h4>{g.name}</h4>
+                      <p>{g.price}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="menu-btn-container">
+                <NavLink to={`/menu/${id}`} className="all-restaurants-link">
+                  View Full Menu →
+                </NavLink>
+              </div>
+            </div>
+          )}
+
+          {selectedDish && (
+            <div
+              className="modal-backdrop"
+              onClick={() => setSelectedDish(null)}
+            >
+              <div className="dish-modal" onClick={(e) => e.stopPropagation()}>
+                <button
+                  className="close-btn"
+                  onClick={() => setSelectedDish(null)}
+                >
+                  ✕
+                </button>
+
+                <img src={selectedDish.image} alt={selectedDish.name} />
+
+                <div className="dish-content">
+                  <div className="dish-header">
+                    <div>{selectedDish.name}</div>
+
+                    <span
+                      className={selectedDish.isVeg ? "veg-tag" : "nonveg-tag"}
+                    >
+                      {selectedDish.isVeg ? "Veg" : "Non Veg"}
+                    </span>
+                  </div>
+
+                  <p className="dish-price">{99}</p>
+
+                  <p className="dish-description">{selectedDish.description}</p>
+                </div>
+              </div>
             </div>
           )}
 
