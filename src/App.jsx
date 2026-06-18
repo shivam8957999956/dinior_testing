@@ -10,6 +10,8 @@ import RestaurantDetail from "./pages/RestaurantDetail/RestaurantDetail";
 import CompetitionDetail from "./pages/CompetitionDetail/CompetitionDetail";
 import Submit from "./pages/Submit/Submit";
 import FullMenu from "./pages/FullMenu/FullMenu";
+import Chefs from "./pages/Chefs/Chefs";
+import ChefDetail from "./pages/ChefDetail/ChefDetail";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/menu/:id" element={<FullMenu />} />
           <Route path="/about" element={<About />} />
           <Route path="/submit" element={<Submit />} />
+          <Route path="/chefs" element={<Chefs />} />
+          <Route path="/chefs/:id" element={<ChefDetail />} />
         </Routes>
       </main>
       <Footer />

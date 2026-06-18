@@ -34,6 +34,12 @@ function NavBar() {
           Feed
         </NavLink>
         <NavLink
+          to="/chefs"
+          className={({ isActive }) => `menu ${isActive ? "active" : ""}`}
+        >
+          Chefs
+        </NavLink>
+        <NavLink
           to="/competitions"
           className={({ isActive }) => `menu ${isActive ? "active" : ""}`}
         >

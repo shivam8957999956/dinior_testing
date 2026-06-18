@@ -762,3 +762,345 @@ export const comments = [
     text: "Perfect plating and vibes!",
   },
 ];
+
+export const chefs = [
+  {
+    id: 1,
+    name: "Marco Bellini",
+    style: "Italian Fine Dining",
+    venue: "Casa Bellini",
+    venueId: 1,
+    city: "Milan",
+    bio: "Modern Italian cuisine inspired by family traditions and seasonal ingredients.",
+    followers: "124K",
+    handle: "@marcobellini",
+    accolades: ["Michelin Star", "Best Chef 2023", "Fine Dining Award"],
+    showcase: [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?w=1000",
+      "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=1000",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=800",
+  },
+
+  {
+    id: 2,
+    name: "Aiko Tanaka",
+    style: "Japanese Kaiseki",
+    venue: "Sakura Table",
+    venueId: 2,
+    city: "Tokyo",
+    bio: "Elegant tasting menus built around harmony, texture, and seasonality.",
+    followers: "98K",
+    handle: "@aikotanaka",
+    accolades: ["2 Michelin Stars", "Chef of the Year", "Asia Culinary Award"],
+    showcase: [
+      "https://images.unsplash.com/photo-1563379091339-03246963d29c?w=1000",
+      "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1000",
+      "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=800",
+  },
+
+  {
+    id: 3,
+    name: "Pierre Laurent",
+    style: "French Contemporary",
+    venue: "Maison Lumière",
+    venueId: 3,
+    city: "Paris",
+    bio: "Classic French techniques with bold contemporary presentation.",
+    followers: "156K",
+    handle: "@pierrelaurent",
+    accolades: [
+      "3 Michelin Stars",
+      "Grand Chef Prize",
+      "Paris Gastronomy Award",
+    ],
+    showcase: [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1000",
+      "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=1000",
+    ],
+    avatar: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?w=800",
+  },
+
+  {
+    id: 4,
+    name: "Arjun Kapoor",
+    style: "Modern Indian",
+    venue: "Spice Theory",
+    venueId: 4,
+    city: "Mumbai",
+    bio: "Traditional Indian flavors reimagined with modern plating.",
+    followers: "87K",
+    handle: "@arjunkapoorchef",
+    accolades: [
+      "Indian Culinary Award",
+      "Rising Star Chef",
+      "Food Innovation Prize",
+    ],
+    showcase: [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1000",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000",
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1000",
+    ],
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43?w=800",
+  },
+
+  {
+    id: 5,
+    name: "Elena Rossi",
+    style: "Mediterranean",
+    venue: "Blu Mare",
+    venueId: 5,
+    city: "Naples",
+    bio: "Fresh seafood and Mediterranean flavors inspired by coastal Italy.",
+    followers: "112K",
+    handle: "@elenarossi",
+    accolades: [
+      "Seafood Excellence",
+      "Mediterranean Master",
+      "Chef Choice Award",
+    ],
+    showcase: [
+      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1000",
+      "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1000",
+      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1541535881962-3bb380b08458?w=800",
+  },
+
+  {
+    id: 6,
+    name: "Miguel Alvarez",
+    style: "Spanish Fusion",
+    venue: "Fuego",
+    venueId: 6,
+    city: "Barcelona",
+    bio: "Creative tapas and flame-cooked dishes with global influences.",
+    followers: "103K",
+    handle: "@miguelalvarez",
+    accolades: ["Fusion Master", "Barcelona Food Prize", "Chef Excellence"],
+    showcase: [
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1000",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1000",
+      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800",
+  },
+
+  {
+    id: 7,
+    name: "Sophia Greene",
+    style: "Plant-Based Cuisine",
+    venue: "Verdure",
+    venueId: 7,
+    city: "New York",
+    bio: "Luxury vegan dishes celebrating local produce and sustainability.",
+    followers: "132K",
+    handle: "@sophiagreene",
+    accolades: ["Green Chef Award", "Vegan Master", "Sustainability Prize"],
+    showcase: [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000",
+      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1000",
+      "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800",
+  },
+
+  {
+    id: 8,
+    name: "Ahmed Rahman",
+    style: "Middle Eastern",
+    venue: "Saffron Flame",
+    venueId: 8,
+    city: "Dubai",
+    bio: "Ancient recipes elevated through refined techniques and storytelling.",
+    followers: "95K",
+    handle: "@ahmedrahman",
+    accolades: [
+      "Middle East Culinary Award",
+      "Master of Spices",
+      "Global Taste Prize",
+    ],
+    showcase: [
+      "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=1000",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1000",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1504593811423-6dd665756598?w=800",
+  },
+
+  {
+    id: 9,
+    name: "Lucas Ferreira",
+    style: "Brazilian Grill",
+    venue: "Terra Fogo",
+    venueId: 9,
+    city: "São Paulo",
+    bio: "Wood-fired meats and vibrant flavors rooted in Brazilian heritage.",
+    followers: "108K",
+    handle: "@lucasferreira",
+    accolades: ["Grill Master", "Latin America Award", "Fire Cuisine Champion"],
+    showcase: [
+      "https://images.unsplash.com/photo-1529692236671-f1dc70ec5f4c?w=1000",
+      "https://images.unsplash.com/photo-1558030006-450675393462?w=1000",
+      "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=1000",
+    ],
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+  },
+
+  {
+    id: 10,
+    name: "Mei Chen",
+    style: "Chinese Modern",
+    venue: "Lotus Kitchen",
+    venueId: 10,
+    city: "Shanghai",
+    bio: "Traditional Chinese flavors transformed into refined culinary experiences.",
+    followers: "141K",
+    handle: "@meichen",
+    accolades: [
+      "Asian Culinary Prize",
+      "Shanghai Food Award",
+      "Innovation Chef",
+    ],
+    showcase: [
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=1000",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000",
+      "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1000",
+    ],
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43?w=800",
+  },
+];
+
+export const chefsPlates = [
+  {
+    id: 1,
+    chefId: 1,
+    name: "Truffle Risotto",
+    description:
+      "Creamy Arborio rice infused with black truffle, aged Parmesan, and seasonal mushrooms.",
+    images: [
+      "https://images.unsplash.com/photo-1633436375795-12b3b339712f?w=1000",
+      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1000",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000",
+    ],
+  },
+  {
+    id: 2,
+    chefId: 2,
+    name: "Kaiseki Harmony",
+    description:
+      "A delicate arrangement of seasonal seafood, vegetables, and handcrafted garnishes.",
+    images: [
+      "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1000",
+      "https://images.unsplash.com/photo-1563379091339-03246963d29c?w=1000",
+      "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?w=1000",
+    ],
+  },
+  {
+    id: 3,
+    chefId: 3,
+    name: "Duck à l'Orange",
+    description:
+      "Classic French duck breast glazed with citrus reduction and served with roasted vegetables.",
+    images: [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1000",
+      "https://images.unsplash.com/photo-1526318896980-cf78c088247c?w=1000",
+    ],
+  },
+  {
+    id: 4,
+    chefId: 4,
+    name: "Deconstructed Butter Chicken",
+    description:
+      "Modern Indian presentation of butter chicken with smoked naan crisps and saffron foam.",
+    images: [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=1000",
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1000",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000",
+    ],
+  },
+  {
+    id: 5,
+    chefId: 5,
+    name: "Mediterranean Sea Bass",
+    description:
+      "Fresh sea bass paired with olives, cherry tomatoes, herbs, and citrus dressing.",
+    images: [
+      "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1000",
+      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1000",
+      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1000",
+    ],
+  },
+  {
+    id: 6,
+    chefId: 6,
+    name: "Smoked Octopus Tapas",
+    description:
+      "Spanish-inspired tapas featuring charred octopus and paprika aioli.",
+    images: [
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1000",
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1000",
+      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=1000",
+    ],
+  },
+  {
+    id: 7,
+    chefId: 7,
+    name: "Garden Symphony",
+    description:
+      "Luxury vegan dish featuring seasonal vegetables, herbs, and edible flowers.",
+    images: [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1000",
+      "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=1000",
+      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1000",
+    ],
+  },
+  {
+    id: 8,
+    chefId: 8,
+    name: "Lamb with Saffron Couscous",
+    description:
+      "Slow-cooked lamb served over fragrant saffron couscous with roasted vegetables.",
+    images: [
+      "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=1000",
+      "https://images.unsplash.com/photo-1547592180-85f173990554?w=1000",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1000",
+    ],
+  },
+  {
+    id: 9,
+    chefId: 9,
+    name: "Churrasco Prime",
+    description:
+      "Brazilian wood-fired steak served with chimichurri and grilled vegetables.",
+    images: [
+      "https://images.unsplash.com/photo-1529692236671-f1dc70ec5f4c?w=1000",
+      "https://images.unsplash.com/photo-1558030006-450675393462?w=1000",
+      "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=1000",
+    ],
+  },
+  {
+    id: 10,
+    chefId: 10,
+    name: "Lotus Dim Sum Collection",
+    description:
+      "Handcrafted dim sum selection showcasing traditional Chinese flavors with modern refinement.",
+    images: [
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=1000",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000",
+      "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1000",
+    ],
+  },
+];
