@@ -12,7 +12,7 @@ export const featured = [
     rating: 4.8,
     is_hidden_gem: true,
     price_range: "$$$",
-    chef_name: "Adrien Moreau",
+    chef_name: "Marco Bellini",
     signature_dishes: [
       "Lamb Tagine Croissant",
       "Saffron Duck Confit",
@@ -64,7 +64,7 @@ export const featured = [
     rating: 4.6,
     is_hidden_gem: false,
     price_range: "$$$",
-    chef_name: "Hiroshi Tanaka",
+    chef_name: "Aiko Tanaka",
     signature_dishes: ["Omakase Platter", "Toro Nigiri", "Miso Black Cod"],
     gallery: [
       "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1200",
@@ -112,7 +112,7 @@ export const featured = [
     rating: 4.0,
     is_hidden_gem: true,
     price_range: "$$",
-    chef_name: "Marco D’Silva",
+    chef_name: "Pierre Laurent",
     signature_dishes: ["Charred Octopus", "Wood-fired Lamb", "Herb Focaccia"],
     gallery: [
       "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200",
@@ -767,6 +767,7 @@ export const chefs = [
   {
     id: 1,
     name: "Marco Bellini",
+    restaurantId: 1,
     style: "Italian Fine Dining",
     venue: "Casa Bellini",
     venueId: 1,
@@ -788,6 +789,7 @@ export const chefs = [
     id: 2,
     name: "Aiko Tanaka",
     style: "Japanese Kaiseki",
+    restaurantId: 2,
     venue: "Sakura Table",
     venueId: 2,
     city: "Tokyo",
@@ -808,6 +810,7 @@ export const chefs = [
     id: 3,
     name: "Pierre Laurent",
     style: "French Contemporary",
+    restaurantId: 3,
     venue: "Maison Lumière",
     venueId: 3,
     city: "Paris",
@@ -830,6 +833,7 @@ export const chefs = [
   {
     id: 4,
     name: "Arjun Kapoor",
+    restaurantId: 4,
     style: "Modern Indian",
     venue: "Spice Theory",
     venueId: 4,
@@ -853,6 +857,7 @@ export const chefs = [
   {
     id: 5,
     name: "Elena Rossi",
+    restaurantId: 5,
     style: "Mediterranean",
     venue: "Blu Mare",
     venueId: 5,
@@ -877,6 +882,7 @@ export const chefs = [
   {
     id: 6,
     name: "Miguel Alvarez",
+    restaurantId: 6,
     style: "Spanish Fusion",
     venue: "Fuego",
     venueId: 6,
@@ -897,6 +903,7 @@ export const chefs = [
   {
     id: 7,
     name: "Sophia Greene",
+    restaurantId: 7,
     style: "Plant-Based Cuisine",
     venue: "Verdure",
     venueId: 7,
@@ -917,6 +924,7 @@ export const chefs = [
   {
     id: 8,
     name: "Ahmed Rahman",
+    restaurantId: 8,
     style: "Middle Eastern",
     venue: "Saffron Flame",
     venueId: 8,
@@ -941,6 +949,7 @@ export const chefs = [
   {
     id: 9,
     name: "Lucas Ferreira",
+    restaurantId: 9,
     style: "Brazilian Grill",
     venue: "Terra Fogo",
     venueId: 9,
@@ -961,6 +970,7 @@ export const chefs = [
   {
     id: 10,
     name: "Mei Chen",
+    restaurantId: 10,
     style: "Chinese Modern",
     venue: "Lotus Kitchen",
     venueId: 10,

@@ -4,7 +4,14 @@ import { NavLink } from "react-router-dom";
 import RestaurantCard from "../../components/RestaurantCard/RestaurantCard";
 import FoodPostCard from "../../components/FoodPostCard/FoodPostCard";
 import CompetitionCard from "../../components/CompetitionCard/CompetitionCard";
-import { featured, posts, comps } from "../../data/mockData";
+import {
+  featured,
+  posts,
+  comps,
+  chefsPlates,
+  chefs,
+} from "../../data/mockData";
+import PlateCard from "../../components/PlateCard/PlateCard";
 function Home() {
   const items = [
     "Hidden cafés",
@@ -126,26 +133,27 @@ function Home() {
         </div>
       </section>
 
-      {/* FEED PREVIEW */}
-      <section className="feed-section">
-        <div className="section-header">
+      {/* Plates */}
+      <section className="featured-section">
+        <div className="featured-header">
           <div>
-            <span className="section-label">Off the pass</span>
-            <h2 className="section-title">Tonight on the line</h2>
+            <span className="featured-label">The Plates</span>
+
+            <h2 className="featured-title">Chef's Exclusive Dishes</h2>
           </div>
 
-          <NavLink to="/feed" className="section-link">
-            Open feed →
+          <NavLink to="/restaurants" className="all-restaurants-link">
+            All Plates →
           </NavLink>
         </div>
 
-        <div className="feed-grid">
-          {posts.slice(0, 6).map((p, i) => (
-            <div key={p.id} className="feed-item">
-              <FoodPostCard post={p} index={i} />
-            </div>
-          ))}
-        </div>
+        {featured.length > 0 && (
+          <div className="plate-grid">
+            {chefsPlates.slice(0, 6).map((r, i) => (
+              <PlateCard key={r.id} r={r} index={i + 1} />
+            ))}
+          </div>
+        )}
       </section>
 
       {/* COMPETITIONS */}
@@ -167,6 +175,28 @@ function Home() {
               <CompetitionCard key={c.id} c={c} index={i} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FEED PREVIEW */}
+      <section className="feed-section">
+        <div className="section-header">
+          <div>
+            <span className="section-label">Off the pass</span>
+            <h2 className="section-title">Tonight on the line</h2>
+          </div>
+
+          <NavLink to="/feed" className="section-link">
+            Open feed →
+          </NavLink>
+        </div>
+
+        <div className="feed-grid">
+          {posts.slice(0, 6).map((p, i) => (
+            <div key={p.id} className="feed-item">
+              <FoodPostCard post={p} index={i} />
+            </div>
+          ))}
         </div>
       </section>
     </div>

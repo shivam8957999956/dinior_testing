@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, ArrowUpRight, Award } from "lucide-react";
-import { chefs, chefsPlates } from "../../data/mockData";
+import { chefs, chefsPlates, featured } from "../../data/mockData";
 import "./ChefDetail.css";
 import { useEffect, useState } from "react";
 
@@ -12,7 +12,7 @@ function ChefDetail() {
 
   // if (!c) return <Navigate to="/chefs" />;
 
-  // const venue = restaurants.find((r) => r.id === c.venueId);
+  const venue = featured.find((r) => r.id === c.restaurantId);
   const posts = chefsPlates.filter((p) => p.chefId === Number(id));
 
   return (
@@ -82,10 +82,10 @@ function ChefDetail() {
       </section>
 
       {/* Restaurant */}
-      {/* {venue && (
+      {venue && (
         <section className="venue-section">
           <div className="venue-image">
-            <img src={venue.hero} alt={venue.name} />
+            <img src={venue.image_url} alt={venue.name} />
           </div>
 
           <div className="venue-content">
@@ -93,7 +93,7 @@ function ChefDetail() {
 
             <h2>{venue.name}</h2>
 
-            <p>{venue.bio}</p>
+            <p>{venue.description}</p>
 
             <Link to={`/restaurants/${venue.id}`} className="visit-btn">
               Visit restaurant
@@ -101,7 +101,7 @@ function ChefDetail() {
             </Link>
           </div>
         </section>
-      )} */}
+      )}
 
       {/* Posts */}
       {posts.length > 0 && (

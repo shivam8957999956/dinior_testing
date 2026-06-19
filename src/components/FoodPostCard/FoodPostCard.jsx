@@ -48,7 +48,7 @@ function FoodPostCard({ post, index = 0, onOpen }) {
         <p className="food-caption">{post.caption}</p>
 
         {post.restaurant_name && (
-          <p className="restaurant-name">at {post.restaurant_name}</p>
+          <p className="restaurant-name-p">at {post.restaurant_name}</p>
         )}
 
         <div className="food-actions">
